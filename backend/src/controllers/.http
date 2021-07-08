@@ -1,0 +1,26 @@
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username": "phucdn",
+    "password": "123456"
+}
+
+###
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "username": "phucdn",
+    "password": "123456"
+}
+
+
+###
+GET http://localhost:8080/api/bills/search
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0FkbWluIjp0cnVlLCJpYXQiOjE2MjQzMzc4NTB9.cBrewN6YQ62ttiamHkUwq4WuJ8ar41acFlRhUP1ap5g
+
+
+###
+GET http://localhost:8080/api/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VuYW1lIjoicGh1Y2RuIiwiaXNBZG1pbiI6dHJ1ZSwiaWF0IjoxNjI0MzM4MTgyfQ.LNKaGPjRgeCK-UKMDBB5XmCaGqtYK-xa5FKZ00DlN9Y
